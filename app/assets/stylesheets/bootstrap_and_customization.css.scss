@@ -1,7 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 $body-bg:    				#3498db;
 $navbar-default-bg: 			#2980b9;
 $navbar-default-link-hover-color: 	#e74c3c;
 $navbar-default-link-color:		#ecf0f1;
 $jumbotron-bg:				#ecf0f1;
+$btn-default-bg:			#34495e;
+$btn-default-border:			black;
+$font-family-sans-serif:		'Source Sans Pro';
 
 @import 'bootstrap';
+
+.center {
+  text-align:center;
+}
