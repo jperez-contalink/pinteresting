@@ -22,7 +22,9 @@
       <ul class="nav navbar-nav navbar-right">
 	<li>
 	<% if user_signed_in? %>
-	  <%= link_to 'Nuevo +', new_pin_path %>
+	  <%= link_to new_pin_path do %>
+	    <span class="glyphicon glyphicon-plus"></span> Crear
+	  <% end %>
 	<% end %>
 	</li>
 	<li><%= link_to "Nosotros", about_path%></li>
