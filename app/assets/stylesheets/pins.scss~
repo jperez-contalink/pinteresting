@@ -6,8 +6,9 @@
 }
 .box {
   margin: 5px;
-  width: 214px;
+  width: 95%;
+  //width: 214px;
 }
 .box img {
-  width:100%;
+  width:50%;
 }
